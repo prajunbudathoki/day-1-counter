@@ -1,12 +1,14 @@
 import "./App.css";
-import Counter from "./usereducer/CounterUseReducer";
+import TodoList from "./todolist/TodoList";
+// import Counter from "./usereducer/CounterUseReducer";
 // import Counter from "./usestate/CounterUseState";
 
 function App() {
   return (
     <>
       {/* <Counter /> */}
-      <Counter />
+      {/* <Counter /> */}
+    <TodoList />
     </>
   );
 }
